@@ -1,0 +1,41 @@
+/* Fix Display issues of HTML5 elements */
+header,nav, main, article, section, footer{ display:block; }
+
+body{}
+
+#container{
+  min-width:700px;
+  width:100%;
+  border:1px solid red;
+}
+
+
+#top-nav{border:1px solid green; /*Remember to set a width and height for elements like nav...*/
+        width:100%;
+        height:60px;
+      /*  position:fixed;*/
+}
+
+nav h2{
+  float:left;
+  padding-left:30px;
+}
+
+nav ul{ list-style-type:none;
+        float:right;
+        position:relative; /*Float ul list right, then position it relative so it won't stack with h2*/
+        right:40px;
+        top:-8px;
+  }
+
+nav li{
+  display:inline;
+  }
+
+nav a:link{}
+nav a:visited{}
+nav a:hover{}
+
+#search-icon{}
+
+header{clear:both;}
