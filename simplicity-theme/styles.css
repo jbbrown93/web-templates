@@ -69,3 +69,51 @@ h1{
 }
 
 /*** End of Header ***/
+
+/*** Main Content Area ***/
+
+.boxedContent{
+
+  border: 1px solid red;
+
+  /* Clear float */
+  overflow:auto;
+}
+
+.mainContentSection{
+
+}
+
+.float-right{
+  float:right;
+  padding-left:20px;
+}
+
+.float-left{
+  float:left;
+  padding-right:20px;
+}
+
+
+.circle{
+
+  /* Chrome 4, Safari 3.1 */
+  -webkit-border-radius: 50%;
+
+  /* Firefox 3 */
+  -moz-border-radius: 50%;
+
+  /*Chrome 5, IE 9, Firefox 4, Safari 5, Opera 10.5 */
+  border-radius: 50%;
+}
+
+.coolRadius{
+  /* Chrome 4, Safari 3.1 */
+  -webkit-border-radius: 5px 30px 5px;
+
+  /* Firefox 3 */
+  -moz-border-radius: 5px 30px 5px;
+
+  /*Chrome 5, IE 9, Firefox 4, Safari 5, Opera 10.5 */
+  border-radius:5px 30px 5px;
+}
